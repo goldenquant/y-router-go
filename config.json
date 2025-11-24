@@ -1,0 +1,16 @@
+{
+  "openrouter_base_url": "https://www.sophnet.com/api/open-apis",
+  "model_mappings": {
+    "haiku": "GLM-4.6",
+    "sonnet": "GLM-4.6",
+    "opus": "GLM-4.6"
+  },
+  "data_logging": {
+    "enabled": true,
+    "directory": "./logs",
+    "log_anthropic_request": false,
+    "log_openai_request": true,
+    "log_openai_response": true,
+    "log_anthropic_response": false
+  }
+}
